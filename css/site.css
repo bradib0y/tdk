@@ -1,3 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    grid-gap: 20px;
+  }
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+
+.logo{
+    max-width: 18rem;
+    width: 18rem;
+    height: 18rem;
+    background-image: url(../img/logo.png);     
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-blend-mode: multiply;
+    background-color: #0b1a3173; 
+}
+
+.menuSpace{
+    width: .4rem;
+    display: inline-block;
+}
+
+.pic{
+    width: 100%;
+}
+
+p{
+    font-size: 1.2rem;    
+}
+
+.attribution{
+    font-size: .8rem;
+    color: #0b1a314a;
+}
+
+li{
+    font-size: 1.1rem;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
     border-radius: 50%;
@@ -11,6 +61,8 @@
 
 .cardwrap{
     padding: 1rem;
+    height: 100%;
+   
 }
 
 .card{
